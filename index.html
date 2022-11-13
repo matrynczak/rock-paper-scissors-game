@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="buttons">
+        <button class="rock">Rock</button>
+    <button class="paper">Paper</button>
+    <button class="scissors">Scissors</button>
+    </div>
     <script src="script.js"></script>
-    
+    <div class="score">
+        <div class="player-score">PLAYER SCORE
+            <p class="p-score">0</p>
+        </div>
+        <div class="comp-score">COMPUTER SCORE
+            <p class="c-score">0</p>
+        </div>
+    </div>
+    <div class="winner-wrapper">
+        <audio class="win-sound-player" src="mixkit-melodic-bonus-collect-1938.wav"></audio>
+        <audio class="lose-sound-player" src="mixkit-retro-arcade-lose-2027.wav"></audio>
+    </div>
 </body>
 </html>
